@@ -8,7 +8,7 @@
 $Id: dz_DZ.xml,v 1.1129 2014-03-12 12:46:54 dbellamy Exp $ -->
 
 <XMLlist>
-<entry code="demo">Démo</entry>
+<entry code="تجريب">Démo</entry>
 <entry code="1000">Identification</entry>
 <entry code="1001">PMB</entry>
 <entry code="1002">fr</entry>
