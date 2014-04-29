@@ -3,24 +3,25 @@
 
 <!-- 
 PMB
-table des langues supportées
-PMB est sous licence GPL, la réutilisation du code est cadrée
+table des langues supportï¿½es
+PMB est sous licence GPL, la rï¿½utilisation du code est cadrï¿½e
 $Id: languages.xml,v 1.15 2011-10-11 17:57:47 touraine37 Exp $
 -->
 
 <XMLlist>
-	<entry code="fr_FR">Français</entry>
+	<entry code="fr_FR">Franï¿½ais</entry>
 	<entry code="de_DE">Deutsch</entry>
-	<entry code="es_ES">Español</entry>
+	<entry code="es_ES">Espaï¿½ol</entry>
 <!-- pas suffisamment traduit
 	<entry code="en_US">English (US)</entry>
 -->
 	<entry code="en_UK">English (UK)</entry>
 	<entry code="it_IT">Italiano</entry>
 	<entry code="nl_NL">Nederlands</entry>
-	<entry code="pt_PT">Português</entry>
-	<entry code="pt_BR">Brasilian português</entry>
-	<entry code="ca_ES">Català</entry> 
+	<entry code="pt_PT">Portuguï¿½s</entry>
+	<entry code="pt_BR">Brasilian portuguï¿½s</entry>
+	<entry code="ca_ES">Catalï¿½</entry> 
 	<entry code="la_LA">Laos</entry> 
-	<entry code="ar">Arabic</entry> 
+	<entry code="ar">Arabic</entry>
+	<entry code="dz_DZ">Arabic</entry>
 </XMLlist>
