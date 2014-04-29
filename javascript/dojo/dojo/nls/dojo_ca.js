@@ -1,0 +1,13 @@
+define('dojo/nls/dojo_ca',{
+'dijit/form/nls/validate':{"rangeMessage":"Aquest valor és fora de l'interval","invalidMessage":"El valor introduït no és vàlid","missingMessage":"Aquest valor és necessari"}
+,
+'dijit/_editor/nls/commands':{"removeFormat":"Elimina el format","copy":"Copia","paste":"Enganxa","selectAll":"Selecciona-ho tot","insertOrderedList":"Llista numerada","insertTable":"Insereix/edita la taula","print":"Imprimeix","underline":"Subratllat","foreColor":"Color de primer pla","htmlToggle":"Font HTML","formatBlock":"Estil de paràgraf","newPage":"Pàgina nova","insertHorizontalRule":"Regla horitzontal","delete":"Suprimeix","appleKey":"⌘${0}","insertUnorderedList":"Llista de vinyetes","tableProp":"Propietat de taula","insertImage":"Insereix imatge","superscript":"Superíndex","subscript":"Subíndex","createLink":"Crea un enllaç","undo":"Desfés","fullScreen":"Commuta pantalla completa","italic":"Cursiva","fontName":"Nom del tipus de lletra","justifyLeft":"Alinea a l'esquerra","unlink":"Elimina l'enllaç","toggleTableBorder":"Inverteix els contorns de taula","viewSource":"Visualitza font HTML","ctrlKey":"control+${0}","fontSize":"Cos de la lletra","systemShortcut":"L'acció \"${0}\" és l'única disponible al navegador utilitzant una drecera del teclat. Utilitzeu ${1}.","indent":"Sagnat","redo":"Refés","strikethrough":"Ratllat","justifyFull":"Justifica","justifyCenter":"Centra","hiliteColor":"Color de fons","deleteTable":"Suprimeix la taula","outdent":"Sagna a l'esquerra","cut":"Retalla","plainFormatBlock":"Estil de paràgraf","toggleDir":"Inverteix la direcció","bold":"Negreta","tabIndent":"Sagnat","justifyRight":"Alinea a la dreta"}
+,
+'dijit/nls/loading':{"loadingState":"S'està carregant...","errorState":"Ens sap greu. S'ha produït un error."}
+,
+'dojo/cldr/nls/number':{"scientificFormat":"#E0","currencySpacing-afterCurrency-currencyMatch":"[:letter:]","infinity":"∞","list":";","percentSign":"%","minusSign":"-","currencySpacing-beforeCurrency-surroundingMatch":"[:digit:]","decimalFormat-short":"000 B","currencySpacing-afterCurrency-insertBetween":" ","nan":"NaN","plusSign":"+","currencySpacing-afterCurrency-surroundingMatch":"[:digit:]","currencyFormat":"#,##0.00 ¤","currencySpacing-beforeCurrency-currencyMatch":"[:letter:]","perMille":"‰","group":".","percentFormat":"#,##0%","decimalFormat":"#,##0.###","decimal":",","currencySpacing-beforeCurrency-insertBetween":" ","exponential":"E"}
+,
+'dijit/form/nls/ComboBox':{"previousMessage":"Opcions anteriors","nextMessage":"Més opcions"}
+,
+'dijit/nls/common':{"buttonOk":"D'acord","buttonCancel":"Cancel·la","buttonSave":"Desa","itemClose":"Tanca"}
+});

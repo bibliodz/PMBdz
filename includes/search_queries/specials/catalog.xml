@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- $Id: catalog.xml,v 1.9 2013-08-02 07:18:12 dgoron Exp $ -->
+<specialfields>
+	<type name="combine" class="combine_search" path="combine"></type>
+	<type name="combine_unimarc" class="combine_search_unimarc" path="combine_unimarc"></type>
+	<type name="combine_expl" class="combine_search_expl" path="combine_expl"></type>	
+	<type name="external_sources" class="external_sources" path="external_sources"></type>
+	<type name="periodique" class="periodique_search" path="periodique"></type>
+	<type name="openurl" class="openurl_search" path="openurl"></type>
+	<type name="serials_list" class="serials_list" path="serials_list"></type>
+	<type name="remote_serials_list" class="remote_serials_list" path="remote_serials_list"></type>
+	<type name="combine_empr" class="combine_search_empr" path="combine_empr"></type>
+</specialfields>

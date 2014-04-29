@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE XMLlist SYSTEM "../XMLlist.dtd" [<!ENTITY nbsp "&amp;nbsp;">]>
+
+<!-- messages localisés en français pour le module Article
+****************************************************************************************
+© 2002-2012 PMB Services / www.sigb.net pmb@sigb.net et contributeurs (voir www.sigb.net)
+****************************************************************************************
+$Id: cms_module_recordslist.xml,v 1.6 2012-12-18 09:28:12 arenou Exp $ -->
+
+<XMLlist>
+	<entry code='cms_module_common_datasource_similarrecords'>Notices similaires</entry>
+	<entry code='cms_module_common_datasource_records_categories'>Notices des catégories d'un article</entry>
+	<entry code='cms_module_common_view_recordslist'>Vue Django</entry>
+	<entry code='cms_module_recordslist_view_carousel'>Vue en Carousel</entry>
+	<entry code='cms_module_common_datasource_records'>Notices d'une étagère</entry>
+	<entry code='cms_module_common_datasource_records_author'>Notices du même auteur principal</entry>
+	<entry code='cms_module_common_datasource_records_similar_cote'>Notices avec une cote d'exemplaires proche</entry>
+	<entry code='cms_module_common_datasource_records_by_cp_val'>Notices par valeur d'un champ perso</entry>
+</XMLlist>

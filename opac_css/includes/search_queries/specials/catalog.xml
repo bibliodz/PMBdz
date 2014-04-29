@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- $Id: catalog.xml,v 1.7 2013-02-27 10:13:43 mbertin Exp $ -->
+<specialfields>
+	<type name="combine" class="combine_search" path="combine"></type>
+	<type name="combine_unimarc" class="combine_search_unimarc" path="combine_unimarc"></type>
+	<type name="external_sources" class="external_sources" path="external_sources"></type>
+	<type name="periodique" class="periodique_search" path="periodique"></type>
+	<type name="openurl" class="openurl_search" path="openurl"></type>
+	<type name="facette" class="facette_search" path="facette"></type>
+</specialfields>

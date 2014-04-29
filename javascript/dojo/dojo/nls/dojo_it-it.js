@@ -1,0 +1,13 @@
+define('dojo/nls/dojo_it-it',{
+'dijit/form/nls/validate':{"rangeMessage":"Questo valore è fuori dall'intervallo consentito.","invalidMessage":"Il valore immesso non è valido.","missingMessage":"Questo valore è obbligatorio."}
+,
+'dijit/_editor/nls/commands':{"removeFormat":"Rimuovi formato","copy":"Copia","paste":"Incolla","selectAll":"Seleziona tutto","insertOrderedList":"Elenco numerato","insertTable":"Inserisci/Modifica tabella","print":"Stampa","underline":"Sottolinea","foreColor":"Colore in primo piano","htmlToggle":"Origine HTML","formatBlock":"Stile paragrafo","newPage":"Nuova pagina","insertHorizontalRule":"Righello orizzontale","delete":"Annulla","appleKey":"⌘${0}","insertUnorderedList":"Elenco a punti","tableProp":"Proprietà tabella","insertImage":"Inserisci immagine","superscript":"Apice","subscript":"Pedice","createLink":"Crea collegamento","undo":"Annulla","fullScreen":"Attiva/Disattiva schermo intero","italic":"Corsivo","fontName":"Nome tipo di carattere","justifyLeft":"Allinea a sinistra","unlink":"Rimuovi collegamento","toggleTableBorder":"Attiva/Disattiva bordo tabella","viewSource":"Visualizza origine HTML","ctrlKey":"ctrl+${0}","fontSize":"Dimensione tipo di carattere","systemShortcut":"Azione \"${0}\" disponibile nel browser solo utilizzando una scelta rapida da tastiera. Utilizzare ${1}.","indent":"Rientra","redo":"Ripeti","strikethrough":"Barrato","justifyFull":"Giustifica","justifyCenter":"Allinea al centro","hiliteColor":"Colore di sfondo","deleteTable":"Elimina tabella","outdent":"Annulla rientro","cut":"Taglia","plainFormatBlock":"Stile paragrafo","toggleDir":"Attiva/Disattiva direzione","bold":"Grassetto","tabIndent":"Rientro tabulazione","justifyRight":"Allinea a destra"}
+,
+'dijit/nls/loading':{"loadingState":"Caricamento in corso...","errorState":"Si è verificato un errore"}
+,
+'dojo/cldr/nls/number':{"scientificFormat":"#E0","currencySpacing-afterCurrency-currencyMatch":"[:letter:]","infinity":"∞","list":";","percentSign":"%","minusSign":"-","currencySpacing-beforeCurrency-surroundingMatch":"[:digit:]","decimalFormat-short":"000 B","currencySpacing-afterCurrency-insertBetween":" ","nan":"NaN","plusSign":"+","currencySpacing-afterCurrency-surroundingMatch":"[:digit:]","currencyFormat":"¤ #,##0.00","currencySpacing-beforeCurrency-currencyMatch":"[:letter:]","perMille":"‰","group":".","percentFormat":"#,##0%","decimalFormat":"#,##0.###","decimal":",","currencySpacing-beforeCurrency-insertBetween":" ","exponential":"E"}
+,
+'dijit/form/nls/ComboBox':{"previousMessage":"Scelte precedenti","nextMessage":"Scelte successive"}
+,
+'dijit/nls/common':{"buttonOk":"Ok","buttonCancel":"Annulla","buttonSave":"Salva","itemClose":"Chiudi"}
+});

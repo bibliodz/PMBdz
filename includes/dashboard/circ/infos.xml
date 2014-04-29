@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- 
+****************************************************************************************
+© 2002-2004 PMB Services / www.sigb.net pmb@sigb.net et contributeurs (voir www.sigb.net)
+****************************************************************************************
+$Id: infos.xml,v 1.1 2014-01-07 10:16:16 arenou Exp $ -->
+<informations>
+	<information>
+		<name>emprs</name>
+		<query>select count(*) as total, sum(if(empr_date_expiration>CURDATE(),1,0)) as expired from empr</query>	
+	</information>
+	<information>
+		<name>prets</name>
+		<query>select count(*) as total, sum(if(pret_retour>CURDATE(),1,0)) as late from pret</query>	
+	</information>	
+	<information>
+		<name>resas</name>
+		<query>select sum(resa_confirmee) as confirmee, sum(if(resa_confirmee=0,1,0)) as a_valider from resa</query>	
+	</information>	
+	<!-- <information>
+		<name>nb_records</name>
+		<query>select count(*) as total from notices</query>	
+	</information>
+ 	<information>
+		<name>nb_relance</name>
+		<fonction type='internal'>
+			<class name='notice'>
+				<contruct_param>136</contruct_param>
+			</class>
+			<param>18/03/1857</param>
+			<method>get_date_parution</method>
+		</fonction>
+		<action></action>	
+	</information>-->
+</informations>

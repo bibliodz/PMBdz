@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE XMLlist SYSTEM "../XMLlist.dtd" [<!ENTITY nbsp "&amp;nbsp;">]>
+
+<!-- messages localisés en français pour le module Articleslist
+****************************************************************************************
+© 2002-2012 PMB Services / www.sigb.net pmb@sigb.net et contributeurs (voir www.sigb.net)
+****************************************************************************************
+$Id: cms_module_sectionslist.xml,v 1.1 2012-10-05 09:00:37 arenou Exp $ -->
+
+<XMLlist>
+	<entry code='cms_module_common_datasource_sections_sections'>Rubriques Parentes</entry>
+	<entry code='cms_module_common_datasource_all_sections'>Toutes les rubriques</entry>
+	<entry code='cms_module_common_datasource_sections'>Rubriques</entry>
+	<entry code='cms_module_common_datasource_sections_categories'>Rubriques des catégories d'une notice</entry>
+	<entry code='cms_module_common_datasource_searchsections'>Recherche dans les rubriques</entry>
+	<entry code='cms_module_common_view_sectionslist'>Liste de rubriques - template Django avec lien</entry>
+	<entry code='cms_module_sectionslist_view_carousel'>Vue en Carousel</entry>
+</XMLlist>

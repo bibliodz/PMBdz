@@ -1,0 +1,6 @@
+<!ELEMENT XMLlist (entry+)>
+<!ELEMENT entry (#PCDATA)>
+<!ATTLIST entry 
+	code NMTOKEN #REQUIRED
+ 	order NMTOKEN #IMPLIED
+>

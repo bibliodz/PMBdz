@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- 
+****************************************************************************************
+© 2002-2004 PMB Services / www.sigb.net pmb@sigb.net et contributeurs (voir www.sigb.net)
+****************************************************************************************
+$Id: infos.xml,v 1.2 2014-01-07 14:34:02 touraine37 Exp $ -->
+<informations>
+	<information>
+		<name>nb_bannettes</name>
+		<query>select count(*) as total from bannettes</query>	
+	</information>
+
+	<information>
+		<name>nb_bannettes_diff</name>
+		<query>select count(*) as total from bannettes where proprio_bannette=0 and date_add(date_last_envoi, INTERVAL periodicite DAY)&lt;now()</query>	
+	</information>
+	
+	<!-- <information>
+		<name>nb_records</name>
+		<query>select count(*) as total from notices</query>	
+	</information>
+ 	<information>
+		<name>nb_relance</name>
+		<fonction>
+			<class name='notice'>
+				<contruct_param>136</contruct_param>
+			</class>
+			<param>18/03/1857</param>
+			<method>get_date_parution</method>
+		</fonction>
+		<action></action>	
+	</information>-->
+
+</informations>

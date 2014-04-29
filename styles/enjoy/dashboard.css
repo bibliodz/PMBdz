@@ -1,0 +1,60 @@
+/* +--------------------------------------------------------------------------+
+// ? 2002-2007 PMB Services / www.sigb.net pmb@sigb.net et contributeurs (voir www.sigb.net)
+// +-------------------------------------------------+
+// $Id: dashboard.css,v 1.4 2014-01-13 08:07:15 arenou Exp $ */
+
+#extra2{
+	background: rgba(255,255,255,0.7);
+	border-bottom-left-radius : 8px;
+	border-bottom-right-radius : 8px;
+}
+
+#extra2 .notification{
+	padding-left:5px;
+	padding-right:5px;
+}
+
+#navbar-dashboard img {
+	height: 22px;
+	position:relative;
+	bottom:2px;
+}
+
+#dashboards .dashboard {
+	border-radius : 10px;
+	box-shadow: 10px 10px 10px #aaa; 
+}
+
+#dashboards .dashboard h3{
+	color : white;
+	padding :10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	vertical-align: middle;
+}
+
+#dashboards .dashboard.circ h3{
+	background-color : #1196CE;
+}
+#dashboards .dashboard.catalog h3{
+	background-color : #E2A502;
+}
+#dashboards .dashboard.autorites h3{
+	background-color : #402FAB;
+}
+#dashboards .dashboard.dsi h3{
+	background-color : #C379DB;
+}
+#dashboards .dashboard.acquisition h3{	
+	background-color : #4FCE88;
+}
+#dashboards .dashboard.demandes h3{
+	background-color : #D3C690;
+}
+#dashboards .dashboard.cms h3{
+	background-color : #3187D9;
+}
+
+#dashboards .dashboard .alert {
+	max-width:120px;
+}

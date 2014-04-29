@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE XMLlist SYSTEM "../XMLlist.dtd" [<!ENTITY nbsp "&amp;nbsp;">]>
+
+<!-- messages localisés en français pour le module Article
+****************************************************************************************
+© 2002-2012 PMB Services / www.sigb.net pmb@sigb.net et contributeurs (voir www.sigb.net)
+****************************************************************************************
+$Id: cms_module_common_datasource_list.xml,v 1.4 2013-09-06 08:00:05 apetithomme Exp $ -->
+
+<XMLlist>
+	<entry code="cms_module_common_datasource_list_limit">Nombres d'éléments maximum à renvoyer</entry>
+	<entry code="cms_module_common_datasource_list_sort_order">Ordre du tri</entry>
+	<entry code="cms_module_common_datasource_list_sort_order_asc">Croissant</entry>
+	<entry code="cms_module_common_datasource_list_sort_order_desc">Décroissant</entry>
+	<entry code="cms_module_common_datasource_list_sort_by">Trier par</entry>
+	<entry code="cms_module_common_datasource_list_sort_by_publication_date">Date de publication</entry>
+	<entry code="cms_module_common_datasource_list_sort_by_id_article">Identifiant</entry>
+	<entry code="cms_module_common_datasource_list_sort_by_article_title">Titre</entry>
+	<entry code="cms_module_common_datasource_list_sort_by_pert">Pertinence</entry>
+	<entry code="cms_module_common_datasource_list_sort_by_section_start_date">Date de publication</entry>
+	<entry code="cms_module_common_datasource_list_sort_by_id_section">Identifiant</entry>
+	<entry code="cms_module_common_datasource_list_sort_by_section_title">Titre</entry>	
+	<entry code="cms_module_common_datasource_list_sort_by_section_order">Position dans l'arbre du contenu éditorial</entry>
+	<entry code="cms_module_common_datasource_list_sort_by_article_order">Position dans l'arbre du contenu éditorial</entry>
+</XMLlist>

@@ -1,0 +1,1241 @@
+/* +--------------------------------------------------------------------------+
+// ? 2002-2007 PMB Services / www.sigb.net pmb@sigb.net et contributeurs (voir www.sigb.net)
+// +-------------------------------------------------+
+// $Id: common.css,v 1.24 2014-01-08 10:59:55 arenou Exp $ */
+
+
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+/*                             ATTRIBUTS GENERAUX                             */
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+
+
+body {
+	font-size: 12px;
+	font-family: Arial,Helvetica,Sans-serif;
+	background-color: #ffffff;
+}
+
+.row {
+	clear:both;
+}
+
+a {
+} 
+
+
+img {
+	border: none;
+	vertical-align: middle;
+}
+
+ul {
+	list-style-position: inside;
+}
+	
+	
+/* ----------- titres et paragraphes ----------- */
+
+
+h1 {
+	font-size: 15px;
+}
+
+h2, h3 {
+	font-size: 13px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+hr {
+	clear:both;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+
+/* ----------------- tableaux ----------------- */
+
+
+table {
+	width: 100%;
+	clear: both;
+}
+
+table.sortable {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+tr {
+}
+
+td {
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	vertical-align: top;
+}
+
+
+/* ------------------ input ------------------ */
+
+
+input, select, textarea {
+	margin: 2px;
+}
+
+input, textarea {
+	padding: 2px;
+}
+
+textarea {
+	max-width: 95%;
+	min-width: 50%;
+}
+
+input.bouton, input.bouton_small {
+	cursor: pointer;
+}
+
+input[type="radio"]{
+	vertical-align: middle;
+}
+
+
+/* ------------------ formulaires --------------- */	
+
+
+form {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.form-contenu {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.form-contenu label {
+	font-weight: bold;
+}
+
+
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+/*                                     NAVBAR                                 */
+/*                                   menu onglet                              */
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+
+
+#navbar {
+}
+
+#navbar ul li {
+	display: inline
+}
+
+
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+/*                                    EXTRA                                   */
+/*                              icones preferences                            */
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+
+
+#extra {
+}
+
+#extra img {
+}
+
+
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+/*                             Style par themes                               */
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+
+
+/* ---------------------------------------------------------------------------*/
+/*                                  General                                   */
+/* ---------------------------------------------------------------------------*/
+
+
+table th {
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+
+			
+/* ---------------------------------------------------------------------------*/
+/*                                Circulation                                 */
+/* ---------------------------------------------------------------------------*/
+
+
+body.circ {
+}
+
+
+/* ---------------------------------------------------------------------------*/
+/*                                 Catalogue                                  */
+/* ---------------------------------------------------------------------------*/
+
+
+body.catalog {
+}
+
+
+/* ---------------------------------------------------------------------------*/
+/*                                 Autorites                                  */
+/* ---------------------------------------------------------------------------*/
+
+
+body.autorites {
+}
+
+
+/* ---------------------------------------------------------------------------*/
+/*                                  Editions                                  */
+/* ---------------------------------------------------------------------------*/
+
+
+body.edit {
+}
+
+
+/* ---------------------------------------------------------------------------*/
+/*                                    DSI                                     */
+/* ---------------------------------------------------------------------------*/
+
+
+body.dsi {
+}
+
+
+/* ---------------------------------------------------------------------------*/
+/*                                Acquisitions                                */
+/* ---------------------------------------------------------------------------*/
+
+
+body.acquisition {
+}
+
+body.acquisition table.act_cell {
+	width: inherit;
+}
+
+body.acquisition .tab_sug td input, body.acquisition .tab_sug td select {
+	width: 90%;
+}
+
+body.acquisition .tab_sug td textarea {
+	width: 90%;
+	max-width: 100%;
+}
+
+body.acquisition .tab_sug td input.bouton {
+	width: inherit;
+}
+
+
+/* ---------------------------------------------------------------------------*/
+/*                                  Demandes                                  */
+/* ---------------------------------------------------------------------------*/
+
+
+body.demandes {
+}
+
+
+/* ---------------------------------------------------------------------------*/
+/*                                   Fiches                                   */
+/* ---------------------------------------------------------------------------*/
+
+
+body.fichier {
+}
+
+
+/* ---------------------------------------------------------------------------*/
+/*                                  Portail                                   */
+/* ---------------------------------------------------------------------------*/
+
+
+body.cms {
+}
+
+body.cms .dijitAccordionInnerContainerSelected .dijitAccordionChildWrapper, body.cms .dijitAccordionInnerContainerSelectedHover .dijitAccordionChildWrapper, body.cms .dijitAccordionInnerContainerSelectedActive .dijitAccordionChildWrapper {
+	border: none !important;
+}
+
+
+/* ---------------------------------------------------------------------------*/
+/*                               Administration                               */
+/* ---------------------------------------------------------------------------*/
+
+
+body.admin {
+}
+
+body.admin table th.brd {
+	background-image: none;
+	background-color: inherit;
+}
+
+
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+/*                                 Conteneur                                  */
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+
+
+#conteneur {
+}
+
+
+/* ---------------------------------------------------------------------------*/
+/*                                    Menu                                    */
+/* ---------------------------------------------------------------------------*/
+
+
+#conteneur #menu {
+}
+
+#menu h3 {
+	cursor: pointer;
+}
+
+#div_alert {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+
+/* ---------------------------------------------------------------------------*/
+/*                                    HMenu                                   */
+/* ---------------------------------------------------------------------------*/
+
+
+#contenu .hmenu {
+	margin-bottom: 10px;
+}
+
+
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+/*                            Saisie des champs                               */
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+
+
+.child .colonne10 {
+	width: 15%;
+}
+
+.child .colonne_suite .saisie-60em {
+	width: 95%;
+}
+
+.child .colonne10 .saisie-20em {
+	width: 150%;
+}
+
+.saisie-inline {
+	width: 80%;
+}
+
+.saisie-2em {
+	width: 2em;
+}
+
+.saisie-5em, .saisie-5emr, .saisie-5emd {
+	width: 5em;
+}
+
+.saisie-10em, .saisie-10emr, .saisie-10emd {
+	width: 7.5em;
+}
+
+.saisie-15em, .saisie-15emr, .saisie-15emd {
+	width: 10em;
+}
+
+.saisie-20em, .saisie-20emr, .saisie-20emd {
+	width: 15em;
+	/*width: 60%;*/
+}
+	
+.saisie-30em, .saisie-30emr, .saisie-30emd {
+	width: 30em;
+	/*width: 70%;*/
+}
+
+.saisie-40em, .saisie-40emr, .saisie-40emd {
+	width: 40em;
+}
+	
+.saisie-50em, .saisie-50emr, .saisie-50emd {
+	width: 35em;
+}
+
+.saisie-60em {
+	width: 85%;
+}
+
+.saisie-80em, .saisie-80emr, .saisie-80emd {
+	width: 40em;
+	/*width: 90%;*/
+}
+
+#notice .form-contenu .child .saisie-80em {
+	width: 90%;
+}
+
+.saisie-85 {
+	width: 95%;
+}
+
+.right, .right-50, .right-15, .right-85 {
+	float: right;
+}
+
+.right-50 {
+	width:50%;
+}
+
+.right-15 {
+	width:15%;
+}
+
+.right-85 {
+	width:85%;
+}
+
+.right-clear-right, .right-50-clear-right {
+	float: right;
+	clear: right;
+}
+
+.left-clear-left, .left-50-clear-left {
+	float: left;
+	clear: left;
+}
+
+.left, .left-50, .left-15 {
+	float: left;
+}
+
+.left-50 {
+	width:50%;
+}
+
+.left-15 {
+	width:15%;
+}
+
+.left-85 {
+	width: 85%;
+}
+
+.spacer {
+	clear: both;
+	display: none;
+}
+
+
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+/*                            Statut des notices                              */
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+
+
+.statutnot1 {
+}
+
+.statutnot2 {
+	background-color: #BB0000;
+}
+
+.statutnot3 {
+	background-color: #00BB00;
+}
+
+.statutnot4 {
+	background-color: #0000BB;
+}
+
+.statutnot5 {
+	background-color: #D0686F;
+}
+
+.statutnot6 {
+	background-color: #A6DCDC;
+}
+
+.statutnot7 {
+	background-color: #816492;
+}
+
+.statutnot8 {
+	background-color: #BCB964;
+}
+
+.statutnot9 {
+	background-color: #6C75AC;
+}
+
+.statutnot10 {
+	background-color: #FFC587;}
+	
+.statutnot11 {
+	background-color: #70C173;
+}
+	
+.statutnot12 {
+	background-color: #660000;
+}
+	
+.statutnot13 {
+	background-color: #006600;
+}
+	
+.statutnot14 {
+	background-color: #000066;
+}
+	
+.statutnot15 {
+	background-color: #80181F;
+}
+	
+.statutnot16 {
+	background-color: #668C8C;
+}
+	
+.statutnot17 {
+	background-color: #311442;
+}
+	
+.statutnot18 {
+	background-color: #7C7914;
+}
+	
+.statutnot19 {
+	background-color: #2C356C;
+}
+	
+.statutnot20 {
+	background-color: #BF8547;
+}
+
+
+/* -----------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------*/
+/*                       MODIFICATIONS POUR L'IMRPESSION                        */
+/* -----------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------*/
+
+
+@media print {
+
+#conteneur{
+	position: relative;
+	clear:both;
+}
+
+#navbar {
+	display: none;
+}
+	
+#menu { 
+	display: none;
+}
+
+#deconnexion {
+	display: none;
+}
+	
+#extra {
+	display: none;
+}
+	
+.bouton {
+	display:none;
+}
+	
+.bouton_small {
+	display:none;
+}
+
+}
+	
+	
+/* -----------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------*/
+/*                                  Calendrier                                  */
+/* -----------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------*/
+
+	
+.dom_div {
+	overflow: auto;
+}
+	
+.dom_tab {
+	table-layout: fixed;	
+}
+	
+.dom_col {
+	overflow: hidden;
+}
+	
+.dom_cell_tab {
+	overflow: hidden;
+}
+
+.dom_tab2 {
+	display: table;
+}
+.dom_row2 {
+	display: table-row;
+	height: 100px;
+}
+.dom_col2 {
+	display: table-cell;
+}
+.dom_cell2_h {
+	display: block;
+	width: 200px;
+	height: 100px;
+	overflow: hidden;
+}
+.dom_cell2 {
+	display: block;
+	height: 100px;
+	overflow: hidden;
+
+}
+.dom_sel {
+	width:200px;
+}
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+/*                                   FRAME                                    */
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+
+
+#recept_frame {
+	z-Index: 1000;
+}
+
+iframe#alerte {
+	visibility: hidden;
+}
+
+#frame_notice_preview {
+	z-Index: 1000;
+}
+
+#up_frame{
+	z-Index: 1000;
+}
+
+#expl-form {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#expl-form .left {
+	float: none;
+}
+	
+#frame_trans_expls, #frame_abts {
+	z-Index: 1000;
+}
+
+#frame_list_items {
+ border:2px solid #777799;
+ border-radius:5px 5px;
+ -moz-border-radius:10px;
+ padding:10px;
+ z-Index:1000;
+ position:absolute;
+ display:none;
+ width:500px;
+ height:250px;
+}
+
+/* -----------------FRAME MAJ------------------- */
+
+
+body.alter h2 .bdd_version {
+	font-size: 17px;
+}
+
+
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+/*                                 Notices                                    */
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+
+
+#notice .form-contenu .child .colonne_suite {
+	width: 50%;
+}
+
+#notice .form-contenu .child .colonne2 .saisie-30emr {
+	width: 70%;
+}
+
+#notice .form-contenu .child .colonne_suite .saisie-15emr {
+	width: 40%;
+}
+
+.notice-perio {
+	padding: 1em;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+	
+#content_onglet_perio {
+	margin-top: 20px;
+}
+
+.depouillements-perio {
+	padding: 1em;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+	
+.msg-perio {
+	font-weight: bold;
+	color: #ff0000;
+}
+
+.perio-barre {
+	font-weight: bold;
+}
+
+.notice-heada {
+	font-weight: bold;
+}
+	
+.notice-parent {
+	margin-bottom: 7px;
+	margin-top: 7px;
+}
+
+.notice-parent .notice-heada blockquote {
+	margin-left: 50px;
+}
+	
+.notice-parent img {
+	vertical-align: bottom;
+}
+
+.notice-parent .left {
+	margin-left: 5px;
+    float: none;
+}
+
+.notice-parent .right {
+	margin-top: -15px;
+    text-align: right;
+    float: none;
+}
+
+.notice-parent h1 .left {
+	float: none;
+}
+
+.notice-parent h1 .right {
+	clear: both;
+	margin-top: -17px;
+    text-align: right;
+}
+
+.img_notice {
+	max-width: 140px;
+	max-height: 200px;
+	width: expression(this.width > 140 ? "140px" : true);
+	height: expression(this.height > 200 ? "200px" : true);
+}
+
+.heada {
+	font-weight: bold;
+}
+	
+.parent {
+	clear: both;
+}
+	
+.bu {
+	margin-top: 15px;
+}
+
+.titre-panier {
+	padding: 1em;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+	
+.gris {
+	color: #cccccc;
+}
+	
+.message_important {
+	color: #ff0000;
+	font-weight: bold;
+	font-size: 1.5em;
+	padding: 5px;
+	margin: 5px;
+}
+
+.expl_comment {
+	color: #ff0000;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 5px;
+	margin: 5px;
+}
+
+
+
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+/*                                     Cell                                   */
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+
+
+.req_cell th, .req_cell td {
+	padding-right: 5px;	
+}
+	
+.req_cell .col_ali {
+	width: 10%;
+}
+
+.req_cell .col_get, .req_cell .col_vis, .req_cell .col_grp, .req_cell .col_tri {
+	width: 20px;
+	padding-right: 0px;
+}
+	
+.req_cell .col_act, .req_cell .col_obl {
+	width: 50px;
+	padding-right: 0px;
+}
+	
+.req_cell .up_bt {
+	vertical-align: top;
+	cursor: pointer;	
+}
+	
+.req_cell .down_bt {
+	vertical-align: bottom;
+	cursor: pointer;	
+}
+	
+.req_cell .stop_bt, .req_cell .cross_bt {
+	vertical-align: middle;
+	width: 16px;
+	cursor: pointer;	
+}
+	
+.in_cell_nb, .in_cell_nb_ro, .in_cell_rd {
+	text-align: right;
+}
+
+.in_cell_nb {
+	width: 30px;;
+}
+
+.in_cell_ro {
+	width: 60px;;
+}
+	
+.in_cell_ld {
+	text-align:left;
+}
+
+.req_ajax_div {
+	z-Index: 1000;
+	overflow: auto;
+}
+
+.req_row_handler {
+	margin-left: 5px;
+	cursor: pointer;	
+}
+
+#req_frame {
+	display: none;
+	padding: 5px;
+	z-Index: 1000;
+}
+
+.req_cell .bt_cross_elt {
+	vertical-align: bottom;
+	cursor: pointer;
+}
+
+.act_cell {
+	table-layout: fixed;
+}
+	
+.act_cell_chkbox {
+	width: 25px;
+}
+
+
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+/*                                   Index                                    */
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+
+
+.index #noconteneur {
+}
+
+.index #navbar ul li {
+	margin-bottom: 4px;
+}
+
+.index #navbar ul li {
+	margin-bottom: 4px;
+}
+
+.index #extra {
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 230px;
+}
+
+#noconteneur #footer {
+	padding-bottom: 15px;
+	clear: both;
+	bottom: 0px;
+	position: absolute;
+	width: 100%;
+}
+
+#noconteneur #footer a {
+	margin-left: 10px;
+}
+
+
+/* ------------ Login-box ---------------*/
+
+
+#login-box {
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 120px;
+	min-width: 250px;
+}
+
+#login-box form#login {
+	background-color: transparent;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 5px 20px;
+}
+
+#login-box form#login .form-contenu {
+    margin-top: 0px;
+}
+
+#login-box form#login .form-contenu #user, #login-box form#login .form-contenu #password {
+    width: 97%;
+}
+
+#login-box .erreur {
+	padding-left: 22px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+#login-box .colonne10 {
+	padding-left: 20px;
+}
+
+#login-box label {
+	font-weight: bold;
+}
+
+#login-box input#user, #login-box input#password {
+	margin-bottom: 10px;
+}
+
+
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+/*                            Attributs divers                                */
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+
+
+/* -------------- Erreur ----------------*/
+
+
+.erreur_saisie {
+	background-color: #ff0000;
+}
+
+.erreur {
+	color: #f00;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.hide {
+	display: none;
+}
+
+.aide {
+	cursor: help;
+}
+
+
+/* ------------ autre ------------- */
+
+
+.tab_sug th, .tab_sug td {
+	text-align: center;
+	overflow: scroll;
+}
+
+.vmenu span a {
+	display: block;
+}
+
+.col {
+	float: left;
+	width: 100%;
+	padding: 1em;
+	margin: 1em;
+}
+
+.bool {
+	font-weight: bold;
+}
+	
+ul.sel_navbar li {
+	display: inline-block;
+	width: auto!important;
+	width: 10px;
+}
+	
+ul.sel_navbar li a {
+	display: block;
+	padding: 6px 10px 2px 10px;
+}
+
+.table-no-border td {
+	vertical-align: middle;
+}
+
+.child_tab {
+	margin-left: 30px;
+}
+
+.form-empr-fgrp {
+	border-bottom : 2px solid #CCCCCC;
+}
+
+table.sortable th {
+	cursor : pointer; 
+}
+
+.edit table.sortable td {
+	text-align : center; 
+}
+
+.vertical {
+    writing-mode: bt-rl;
+}
+
+#exer {
+	width: 100%;
+}
+
+#mnt_bud, #seuil {
+	width: 70%;
+}
+
+
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+/*                           Attributs Colonnes                               */
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+
+
+.colonne2 {
+  float: left;
+  width: 50%;
+}
+
+.colonne60 {
+  float: left;
+  width: 60%;
+}
+
+.colonne40 {
+  float: left;
+  width: 40%;
+}
+
+.colonne_suite {
+  float: left;
+}
+
+.colonne_scroll {
+	margin-left: 1%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 73%;
+    border: 2px solid #CCCCCC;
+    float: left;
+}
+
+
+/* pour les mises en pages sur 3 colonnes */
+
+.colonne3 {
+  float: left;
+  width: 33%;
+}
+
+.colonne3 select {
+  max-width: 90%;
+}
+
+
+/* pour les mises en pages sur 4 colonnes */
+
+.colonne4 {
+  float: left;
+  width: 25%;
+}
+
+
+/* pour les mises en pages sur 5 colonnes */
+
+.colonne5 {
+  float: left;
+  width: 20%;
+}
+
+
+/* pour avoir une colonne toute petite ! */
+
+.colonne10 {
+  float: left;
+  width: 10%;
+}
+
+.colonne80 {
+  float: left;
+  width: 80%;
+}
+
+.colonne75 {
+  float: left;
+  width: 75%;
+}
+
+.colonne25 {
+  float: left;
+  width: 25%;
+}
+
+
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+/*                           Uploader Portail                                 */
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+
+.document_item {
+	text-align: center;
+	height:200px;
+	width:200px;
+	line-height:200px; 
+	float:left;
+	margin: 5px;
+	padding : 5px;
+	background-color: #eff;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	border: 1px solid #ddd;
+	position:relative;
+}
+
+.document_item_selected {
+	background-color: #ffe;
+}
+
+.document_item_content {
+	line-height:1.2;
+	display:inline-block;
+	vertical-align:middle;
+	word-break : break-all;
+}
+
+.dropTarget {
+	height:100px;
+	width:97%;
+	overflow:hidden;
+	line-height:100px; 
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	border: 1px solid #ccc;
+	background-color: #ddd;
+	float :left;
+}
+
+.targetActive {
+	-moz-box-shadow: 0 0 15px #006666;
+	-webkit-box-shadow: 0 0 15px #006666;
+	box-shadow: 0 0 15px #006666;
+}
+
+.document_item .document_checkbox{
+	position:absolute;
+	width:100%;
+	text-align:center;
+	overflow:hidden;
+	top : 100px;
+}
+
+.document_list{
+	max-height:500px;
+	overflow-y:scroll;	
+}
+

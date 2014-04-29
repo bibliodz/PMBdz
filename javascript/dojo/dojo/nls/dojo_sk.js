@@ -1,0 +1,13 @@
+define('dojo/nls/dojo_sk',{
+'dijit/form/nls/validate':{"rangeMessage":"Táto hodnota je mimo rozsah.","invalidMessage":"Zadaná hodnota nie je platná.","missingMessage":"Táto hodnota je povinná."}
+,
+'dijit/_editor/nls/commands':{"removeFormat":"Odstrániť formátovanie","copy":"Kopírovať","paste":"Prilepiť","selectAll":"Vybrať všetko","insertOrderedList":"Číslovaný zoznam","insertTable":"Vložiť/upraviť tabuľku","print":"Vytlačiť","underline":"Podčiarknuť","foreColor":"Farba popredia","htmlToggle":"Zdrojový kód HTML","formatBlock":"Štýl odseku","newPage":"Nová stránka","insertHorizontalRule":"Vodorovná čiara","delete":"Vymazať","appleKey":"⌘${0}","insertUnorderedList":"Zoznam s odrážkami","tableProp":"Vlastnosť tabuľky","insertImage":"Vložiť obrázok","superscript":"Horný index","subscript":"Dolný index","createLink":"Vytvoriť prepojenie","undo":"Späť","fullScreen":"Prepnúť na celú obrazovku","italic":"Kurzíva","fontName":"Názov písma","justifyLeft":"Zarovnať vľavo","unlink":"Odstrániť prepojenie","toggleTableBorder":"Prepnúť ohraničenie tabuľky","viewSource":"Zobraziť zdrojový kód HTML","ctrlKey":"Ctrl+${0}","fontSize":"Veľkosť písma","systemShortcut":"Akcia \"${0}\" je vo vašom prehliadači dostupná iba prostredníctvom klávesovej skratky. Stlačte ${1}.","indent":"Odsadiť","redo":"Znova","strikethrough":"Prečiarknuť","justifyFull":"Zarovnať k okrajom","justifyCenter":"Zarovnať na stred","hiliteColor":"Farba pozadia","deleteTable":"Odstrániť tabuľku","outdent":"Zmenšiť odsadenie","cut":"Vystrihnúť","plainFormatBlock":"Štýl odseku","toggleDir":"Prepnúť smer","bold":"Tučné","tabIndent":"Odsadenie tabulátora","justifyRight":"Zarovnať vpravo"}
+,
+'dijit/nls/loading':{"loadingState":"Zavádza sa...","errorState":"Ľutujeme, ale vyskytla sa chyba"}
+,
+'dojo/cldr/nls/number':{"scientificFormat":"#E0","currencySpacing-afterCurrency-currencyMatch":"[:letter:]","infinity":"∞","list":",","percentSign":"%","minusSign":"-","currencySpacing-beforeCurrency-surroundingMatch":"[:digit:]","decimalFormat-short":"000 bil'.'","currencySpacing-afterCurrency-insertBetween":" ","nan":"NaN","plusSign":"+","currencySpacing-afterCurrency-surroundingMatch":"[:digit:]","currencyFormat":"#,##0.00 ¤","currencySpacing-beforeCurrency-currencyMatch":"[:letter:]","perMille":"‰","group":" ","percentFormat":"#,##0 %","decimalFormat":"#,##0.###","decimal":",","currencySpacing-beforeCurrency-insertBetween":" ","exponential":"E"}
+,
+'dijit/form/nls/ComboBox':{"previousMessage":"Predchádzajúce možnosti","nextMessage":"Viac možností"}
+,
+'dijit/nls/common':{"buttonOk":"OK","buttonCancel":"Zrušiť","buttonSave":"Uložiť","itemClose":"Zatvoriť"}
+});

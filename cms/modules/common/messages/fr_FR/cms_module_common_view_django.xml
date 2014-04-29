@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE XMLlist SYSTEM "../XMLlist.dtd" [<!ENTITY nbsp "&amp;nbsp;">]>
+
+<!-- messages localisés en français pour la classe datasource
+****************************************************************************************
+© 2002-2012 PMB Services / www.sigb.net pmb@sigb.net et contributeurs (voir www.sigb.net)
+****************************************************************************************
+$Id: cms_module_common_view_django.xml,v 1.4 2014-02-20 17:03:43 dbellamy Exp $ -->
+
+<XMLlist>
+	<entry code="cms_module_common_view_django_add_template">Ajouter un template</entry>
+	<entry code="cms_module_common_view_django_template_name">Nom du template</entry>
+	<entry code="cms_module_common_view_django_template_content">Contenu du template</entry>
+	<entry code="cms_module_common_view_django_template_choice">Choisissez le template à utiliser</entry>
+	<entry code="cms_module_common_view_django_delete_template">Etes-vous sûr()e) de vouloir supprimer ce template ?</entry>
+	<entry code="cms_module_common_view_error_template">Erreur sur le template</entry>
+</XMLlist>

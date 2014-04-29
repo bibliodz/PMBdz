@@ -1,0 +1,13 @@
+define('dojo/nls/dojo_sv',{
+'dijit/form/nls/validate':{"rangeMessage":"Värdet ligger utanför intervallet.","invalidMessage":"Angivet värde är inte giltigt.","missingMessage":"Värdet krävs."}
+,
+'dijit/_editor/nls/commands':{"removeFormat":"Ta bort format","copy":"Kopiera ","paste":"Klistra in","selectAll":"Markera allt","insertOrderedList":"Numrerad lista","insertTable":"Infoga/redigera tabell","print":"Skriv ut","underline":"Understrykning","foreColor":"Förgrundsfärg","htmlToggle":"HTML-källa","formatBlock":"Styckeformat","newPage":"Ny sida","insertHorizontalRule":"Horisontell linje","delete":"Ta bort ","appleKey":"⌘${0}","insertUnorderedList":"Punktlista","tableProp":"Tabellegenskap","insertImage":"Infoga bild","superscript":"Upphöjt","subscript":"Nedsänkt","createLink":"Skapa länk","undo":"Ångra","fullScreen":"Växla fullskärm","italic":"Kursiv","fontName":"Teckensnitt","justifyLeft":"Justera till vänster","unlink":"Ta bort länk","toggleTableBorder":"Växla tabellkantlinjer","viewSource":"Visa HTML-kod","ctrlKey":"Ctrl+${0}","fontSize":"Teckenstorlek","systemShortcut":"Åtgärden ${0} är endast tillgänglig i webbläsaren via ett tangentbordskommando. Använd ${1}.","indent":"Indrag","redo":"Gör om","strikethrough":"Genomstrykning","justifyFull":"Justera","justifyCenter":"Justera centrerat","hiliteColor":"Bakgrundsfärg","deleteTable":"Ta bort tabell","outdent":"Utdrag","cut":"Klipp ut ","plainFormatBlock":"Styckeformat","toggleDir":"Växla riktning","bold":"Halvfet","tabIndent":"Indrag tabb","justifyRight":"Justera till höger"}
+,
+'dijit/nls/loading':{"loadingState":"Läser in...","errorState":"Det har inträffat ett fel."}
+,
+'dojo/cldr/nls/number':{"scientificFormat":"#E0","currencySpacing-afterCurrency-currencyMatch":"[:letter:]","infinity":"∞","list":";","percentSign":"%","minusSign":"−","currencySpacing-beforeCurrency-surroundingMatch":"[:digit:]","decimalFormat-short":"000 trl","currencySpacing-afterCurrency-insertBetween":" ","nan":"¤¤¤","plusSign":"+","currencySpacing-afterCurrency-surroundingMatch":"[:digit:]","currencyFormat":"#,##0.00 ¤","currencySpacing-beforeCurrency-currencyMatch":"[:letter:]","perMille":"‰","group":" ","percentFormat":"#,##0 %","decimalFormat":"#,##0.###","decimal":",","currencySpacing-beforeCurrency-insertBetween":" ","exponential":"×10^"}
+,
+'dijit/form/nls/ComboBox':{"previousMessage":"Tidigare val","nextMessage":"Fler val"}
+,
+'dijit/nls/common':{"buttonOk":"OK","buttonCancel":"Avbryt","buttonSave":"Spara","itemClose":"Stäng"}
+});
