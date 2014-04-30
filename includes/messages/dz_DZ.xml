@@ -3867,10 +3867,10 @@ $Id: dz_DZ.xml,v 1.1129 2014-03-12 12:46:54 dbellamy Exp $ -->
 <entry code="gen_date_publication_article">Générer l'année de publication des articles de périodique</entry>
 <entry code="gen_date_publication_article_end">Les années de publication des articles de périodique ont été générées</entry>
 <entry code="admin_usr_grp">Groupe</entry>
-<entry code="admin_usr_grp_ges">Gestion des groupes</entry>
-<entry code="admin_usr_grp_lib">Nom du groupe</entry>
-<entry code="admin_usr_grp_add">Ajouter un groupe</entry>
-<entry code="admin_usr_grp_mod">Modifier un groupe</entry>
+<entry code="admin_usr_grp_ges">إدارة المجموعات</entry>
+<entry code="admin_usr_grp_lib">إسم المجموعة</entry>
+<entry code="admin_usr_grp_add">إضافة مجموعة</entry>
+<entry code="admin_usr_grp_mod">تعديل مجموعة</entry>
 <entry code="admin_usr_grp_lib_used"> : ce libellé est déjà utilisé !</entry>
 <entry code="admin_usr_grp_del_imp">Impossible de supprimer ce groupe car certains utilisateurs en font partie.</entry>
 <entry code="admin_usr_grp_aff">Affecté au groupe</entry>
