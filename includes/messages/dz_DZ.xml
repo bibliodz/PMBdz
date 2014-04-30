@@ -408,7 +408,7 @@ $Id: dz_DZ.xml,v 1.1129 2014-03-12 12:46:54 dbellamy Exp $ -->
 <entry code="351">Ajouter une réservation</entry>
 <entry code="352">Réservation</entry>
 <entry code="353">Création d'une réservation pour le lecteur</entry>
-<entry code="354">Auteur/titre</entry>
+<entry code="354">مؤلف/عنوان</entry>
 <entry code="355">Catégories/Index. décimale</entry>
 <entry code="356">Éditeur/collection</entry>
 <entry code="357">Recherche</entry>
@@ -2094,10 +2094,10 @@ $Id: dz_DZ.xml,v 1.1129 2014-03-12 12:46:54 dbellamy Exp $ -->
 <entry code="finance_amende_relance_parameters">Paramètres de gestion des amendes pour les relances</entry>
 <entry code="finance_but_supr">Supprimer les transactions cochées</entry>
 <entry code="finance_confirm_supr">Etes-vous sur de vouloir supprimer les transactions cochées ?</entry>
-<entry code="param_dsi">Diffusion sélective de l'information</entry>
+<entry code="param_dsi">البث الانتقائي للمعلومات</entry>
 <entry code="dsi_droit">D.S.I.</entry>
 <entry code="dsi_menu">D.S.I.</entry>
-<entry code="dsi_menu_title">Diffusion sélective de l'information</entry>
+<entry code="dsi_menu_title">البث الانتقائي للمعلومات</entry>
 <entry code="dsi_menu_bannettes">Bannettes</entry>
 <entry code="dsi_menu_equations">Equations</entry>
 <entry code="dsi_menu_diffusion">Diffusion</entry>
