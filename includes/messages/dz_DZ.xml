@@ -40,7 +40,7 @@ $Id: dz_DZ.xml,v 1.1129 2014-03-12 12:46:54 dbellamy Exp $ -->
 <entry code="1023">S</entry>
 <entry code="1024">D</entry>
 <entry code="1025">utf-8</entry>
-<entry code="1026">OPAC</entry>
+<entry code="1026">الفهرس اﻵلي على الخط</entry>
 <entry code="1027">فتح الفهرس العام في نافذة جديدة</entry>
 <entry code="2001">1</entry>
 <entry code="2002">2</entry>
@@ -60,9 +60,9 @@ $Id: dz_DZ.xml,v 1.1129 2014-03-12 12:46:54 dbellamy Exp $ -->
 <entry code="6">فهرس</entry>
 <entry code="7">اﻹدارة</entry>
 <entry code="8">خروج</entry>
-<entry code="9">دخول غير صحيح</entry>
-<entry code="10">معرف غير صحيح</entry>
-<entry code="11">عملية غير مصرح بها</entry>
+<entry code="9">دخول خاطيء</entry>
+<entry code="10">اسم مستخدم أو كلمة مرور خاطئة</entry>
+<entry code="11">إجراء أو عملية غير مسموح بها</entry>
 <entry code="12">Les droits définis dans votre profil utilisateur ne vous permettent pas d'accéder à cette fonctionnalité.</entry>
 <entry code="13">Prêt de documents</entry>
 <entry code="14">Retour de documents</entry>
